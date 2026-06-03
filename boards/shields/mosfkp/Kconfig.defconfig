@@ -1,0 +1,13 @@
+if SHIELD_MOSFKP_LEFT
+
+config ZMK_SPLIT
+    default y
+
+endif
+
+if SHIELD_MOSFKP_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif
