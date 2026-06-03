@@ -1,0 +1,5 @@
+config SHIELD_MOSFKP_LEFT
+    def_bool $(shields_list_contains,mosfkp_left)
+
+config SHIELD_MOSFKP_RIGHT
+    def_bool $(shields_list_contains,mosfkp_right)
